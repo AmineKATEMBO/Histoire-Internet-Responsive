@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto&display=swap');
+* {
+    background-color: rgb(170, 165, 165);
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    font-family: roboto;
+}
+
+a {
+    color: red;
+}
+
+h2 {
+    color: red;
+    font-family: libre baskerville;
+}
+
+.flash1 {
+    font-style: italic;
+    margin-left: 15%;
+}
+
+.milieu {
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+}
+
+@media screen and (max-width:1028px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    p {
+        font-size: 1em;
+    }
+    ul {
+        font-size: 1em;
+    }
+    code {
+        font-size: 1.8em;
+    }
+}
